@@ -23,3 +23,9 @@ To run tests run
 ```bash
 bun test
 ```
+
+To build
+
+```bash
+bun run build
+```

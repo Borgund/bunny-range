@@ -5,7 +5,8 @@
   "scripts": {
     "start": "bun src/index.ts",
     "dev": "bun --hot src/index.ts",
-    "test": "bun test --watch"
+    "test": "bun test --watch",
+    "build": "bun build ./src/index.ts --outdir ./build"
   },
   "devDependencies": {
     "bun-types": "latest"
