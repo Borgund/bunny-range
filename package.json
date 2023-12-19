@@ -6,7 +6,7 @@
     "start": "bun src/index.ts",
     "dev": "bun --hot src/index.ts",
     "test": "bun test --watch",
-    "build": "bun build ./src/index.ts --outdir ./build"
+    "build": "bun build src/index.ts --outdir ./build --target bun"
   },
   "devDependencies": {
     "bun-types": "latest"
